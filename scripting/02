@@ -1,5 +1,4 @@
 #!/bin/bash
-#en root
 #Le script permettant de mettre a jour les sources des paquets puis de les mettre eux-meme a jour:
 
 if crontab -l | grep -q "sudo apt-get update >> var/log/update_script.log && sudo apt-get upgrade >> /var/log/update_script.log"

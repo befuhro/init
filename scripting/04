@@ -1,3 +1,4 @@
+SCRIPTPATH="$(realpath $0)"
 if [ ! -f ~/.hash.txt ]; then
 	md5sum /etc/crontab > ~/.hash.txt
 	echo "hash.txt have just been created."
