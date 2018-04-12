@@ -1,0 +1,13 @@
+#!/bin/bash
+#en root
+#Le script permettant de mettre a jour les sources des paquets puis de les mettre eux-meme a jour:
+
+if crontab -l | grep -q "sudo apt-get update >> var/log/update_script.log && sudo apt-get upgrade >> /var/log/update_script.log"
+then
+	echo "script was already in crontab file."
+else
+	crontab < <(crontab -l ; echo "0 4 * * sun    sudo apt-get update >> var/log/update_script.log && sudo apt-get upgrade >> /var/log/update_script.log")	
+	echo "script has been put into crontab file."
+fi
+
+#Pour planifier la tache, il est aussi possible mettre le script dans le repertoire /etc/cron.weekly/, crontab executera tous les scripts compris dans ce dossier une fois par semaine.

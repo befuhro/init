@@ -1,0 +1,11 @@
+if [ ! -f ~/.hash.txt ]; then
+	md5sum /etc/crontab > ~/.hash.txt
+	echo "hash.txt have just been created."
+else
+	if md5sum --status -c ~/.hash.txt; then
+		echo "Crontab hasn't been modified."
+	else
+		echo "Crontab has been modified." | mail -s "crontab watcher" root
+		md5sum crontab > hash.txt
+	fi
+fi
