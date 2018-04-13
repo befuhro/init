@@ -1,1 +1,2 @@
+#Identifie l'addresse IP de la gateway par default
 netstat -nr | grep -E 'default.*UGSc' | cut -d ' ' -f13

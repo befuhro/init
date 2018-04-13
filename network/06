@@ -1,1 +1,2 @@
+#Donner le chemin du fichier contenant le DNS de notre machine.
 /etc/resolv.conf

@@ -1,1 +1,2 @@
+#Recuperer l'adresse IP d'un DNS
 nslookup slash16.org | grep Server: | cut -d$'\t' -f3
