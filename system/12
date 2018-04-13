@@ -1,2 +1,2 @@
-#en root
+#Cette commande permet de donner la taille exacte de chaque dossier contenu dans /var, elle necessite d'etre root:
 du -s /var/*

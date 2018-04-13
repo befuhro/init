@@ -1,1 +1,2 @@
+#Cette commande permet d'afficher l'espace disponible sur le systeme.
 df -h --total

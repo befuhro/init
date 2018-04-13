@@ -1,1 +1,2 @@
+#Commande servant a renommer le systeme, elle necessite d'etre root.
 hostname nouveauNom

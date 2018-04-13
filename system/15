@@ -1,1 +1,2 @@
+#Cette commande permet de tuer le processus tail.
 pkill tail

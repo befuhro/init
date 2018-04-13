@@ -1,1 +1,2 @@
+#Cette commande permet de redemarrer le service ssh, elle necessite d'etre root.
 service ssh restart

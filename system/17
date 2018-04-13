@@ -1,1 +1,2 @@
+#Cette commande permet de lister les regles du pare-feu, elle necessite d'etre root:
 iptables -S

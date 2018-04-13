@@ -1,2 +1,2 @@
-#en root
+#Cette commande permet de lister les table de partition des peripheriques, elle necessite d'etre root.
 fdisk -l

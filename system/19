@@ -1,2 +1,2 @@
-#en root
+#Cette commande permet de creer une politique pour refuser les entrees provenants de toutes les IPs sauf si specifie autrement dans la liste des regles, elle necessite d'etre root.
 iptables --policy INPUT DROP

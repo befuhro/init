@@ -1,1 +1,2 @@
+#Cette commande permet de connaitre l'etat du service ssh, elle necessite d'etre root.
 service ssh status

@@ -1,1 +1,2 @@
-/home/user/.ssh/id_rsa.pub
+#Le fichier contenant les cle rsa autorise a se connecter a une session en ssh est:
+/home/user/.ssh/authorized_keys

@@ -1,1 +1,2 @@
+#Cette commande permet de mettre en arriere plan le tail fait sur le fichier syslog, qui necessite d'etre root:
 tail -f /var/log/syslog &

@@ -1,2 +1,2 @@
-#en root
+#Cette commande permet de creer une regle pour accepter toutes les entrees provenant de la plage 10.0.0.0/8, elle necessite d'etre root.
 iptables -A INPUT --src 10.0.0.0/8 -j ACCEPT
