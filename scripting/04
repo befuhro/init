@@ -1,3 +1,6 @@
+#La premiere partie du script a pour but de verifier les crontab et d'envoyer un mail a root si il a ete modifie.
+#La deuxieme partie va placer le fichier dans le crontab si jamais celui ci n'y ete pas pour pouvoir etre execute tous les jours a minuit.
+
 SCRIPTPATH="$(realpath $0)"
 
 if [ ! -f ~/.hash.txt ]; then

@@ -1,2 +1,2 @@
-#en root
+#Ce script a pour but d'afficher les logins, les UID et les paths contenus dans le fichier /etc/passwd, il necessite d'etre root.
 awk -F":" '{print $1, $3, $6}' /etc/passwd

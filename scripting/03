@@ -1,1 +1,2 @@
+#Ce script a pour but de lister par taille tous les fichiers contenu dans le dossier passe en parametre.
 ls -S $1
